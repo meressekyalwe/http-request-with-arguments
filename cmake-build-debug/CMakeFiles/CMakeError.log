@@ -1,0 +1,2272 @@
+Determining if the function idn2_lookup_ul exists in the idn2;winmm;ws2_32;advapi32 failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e2e78/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2e78.dir\build.make CMakeFiles/cmTC_e2e78.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2e78.dir/CheckFunctionExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul    -D_WINSOCKAPI_= -o CMakeFiles\cmTC_e2e78.dir\CheckFunctionExists.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\share\cmake-3.20\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_e2e78.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2e78.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e2e78.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_e2e78.dir/objects.a @CMakeFiles\cmTC_e2e78.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul -Wl,--whole-archive CMakeFiles\cmTC_e2e78.dir/objects.a -Wl,--no-whole-archive -o cmTC_e2e78.exe -Wl,--out-implib,libcmTC_e2e78.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e2e78.dir\linklibs.rsp
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lidn2
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e2e78.dir\build.make:100: cmTC_e2e78.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_e2e78/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test USE_UNIX_SOCKETS failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_24db7/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_24db7.dir\build.make CMakeFiles/cmTC_24db7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24db7.dir/src.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -DUSE_UNIX_SOCKETS  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_24db7.dir\src.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:10: fatal error: sys/un.h: No such file or directory
+ #include <sys/un.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_24db7.dir\build.make:77: CMakeFiles/cmTC_24db7.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_24db7/fast] Error 2
+
+
+Source file was:
+
+#include <sys/un.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_un *)0)->sun_path);
+  return 0;
+}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_de281/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_de281.dir\build.make CMakeFiles/cmTC_de281.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de281.dir/HAVE_SYS_FILIO_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_de281.dir\HAVE_SYS_FILIO_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c:7:10: fatal error: sys/filio.h: No such file or directory
+ #include <sys/filio.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_de281.dir\build.make:77: CMakeFiles/cmTC_de281.dir/HAVE_SYS_FILIO_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_de281/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cb5e1/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cb5e1.dir\build.make CMakeFiles/cmTC_cb5e1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb5e1.dir/HAVE_SYS_IOCTL_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_cb5e1.dir\HAVE_SYS_IOCTL_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c:7:10: fatal error: sys/ioctl.h: No such file or directory
+ #include <sys/ioctl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_cb5e1.dir\build.make:77: CMakeFiles/cmTC_cb5e1.dir/HAVE_SYS_IOCTL_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_cb5e1/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4d7ee/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4d7ee.dir\build.make CMakeFiles/cmTC_4d7ee.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d7ee.dir/HAVE_SYS_RESOURCE_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_4d7ee.dir\HAVE_SYS_RESOURCE_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c:7:10: fatal error: sys/resource.h: No such file or directory
+ #include <sys/resource.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4d7ee.dir\build.make:77: CMakeFiles/cmTC_4d7ee.dir/HAVE_SYS_RESOURCE_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_4d7ee/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_28428/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_28428.dir\build.make CMakeFiles/cmTC_28428.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28428.dir/HAVE_SYS_UIO_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_28428.dir\HAVE_SYS_UIO_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c:9:10: fatal error: sys/uio.h: No such file or directory
+ #include <sys/uio.h>
+          ^~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_28428.dir\build.make:77: CMakeFiles/cmTC_28428.dir/HAVE_SYS_UIO_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_28428/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ed7bc/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ed7bc.dir\build.make CMakeFiles/cmTC_ed7bc.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed7bc.dir/HAVE_SYS_UN_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_ed7bc.dir\HAVE_SYS_UN_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c:9:10: fatal error: sys/un.h: No such file or directory
+ #include <sys/un.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ed7bc.dir\build.make:77: CMakeFiles/cmTC_ed7bc.dir/HAVE_SYS_UN_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_ed7bc/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2f054/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2f054.dir\build.make CMakeFiles/cmTC_2f054.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f054.dir/HAVE_SYS_XATTR_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_2f054.dir\HAVE_SYS_XATTR_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c:10:10: fatal error: sys/xattr.h: No such file or directory
+ #include <sys/xattr.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2f054.dir\build.make:77: CMakeFiles/cmTC_2f054.dir/HAVE_SYS_XATTR_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_2f054/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c3b54/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c3b54.dir\build.make CMakeFiles/cmTC_c3b54.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3b54.dir/HAVE_ARPA_TFTP_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_c3b54.dir\HAVE_ARPA_TFTP_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c:10:10: fatal error: arpa/tftp.h: No such file or directory
+ #include <arpa/tftp.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_c3b54.dir\build.make:77: CMakeFiles/cmTC_c3b54.dir/HAVE_ARPA_TFTP_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_c3b54/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;crypto.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_33af1/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_33af1.dir\build.make CMakeFiles/cmTC_33af1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33af1.dir/HAVE_CRYPTO_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_33af1.dir\HAVE_CRYPTO_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c:11:10: fatal error: crypto.h: No such file or directory
+ #include <crypto.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_33af1.dir\build.make:77: CMakeFiles/cmTC_33af1.dir/HAVE_CRYPTO_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_33af1/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <crypto.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;des.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5a6e8/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5a6e8.dir\build.make CMakeFiles/cmTC_5a6e8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a6e8.dir/HAVE_DES_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_5a6e8.dir\HAVE_DES_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c:11:10: fatal error: des.h: No such file or directory
+ #include <des.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5a6e8.dir\build.make:77: CMakeFiles/cmTC_5a6e8.dir/HAVE_DES_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_5a6e8/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <des.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;err.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4f358/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4f358.dir\build.make CMakeFiles/cmTC_4f358.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f358.dir/HAVE_ERR_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_4f358.dir\HAVE_ERR_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c:11:10: fatal error: err.h: No such file or directory
+ #include <err.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4f358.dir\build.make:77: CMakeFiles/cmTC_4f358.dir/HAVE_ERR_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_4f358/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <err.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1957e/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1957e.dir\build.make CMakeFiles/cmTC_1957e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1957e.dir/HAVE_IDN2_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_1957e.dir\HAVE_IDN2_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c:13:10: fatal error: idn2.h: No such file or directory
+ #include <idn2.h>
+          ^~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1957e.dir\build.make:77: CMakeFiles/cmTC_1957e.dir/HAVE_IDN2_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_1957e/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1befc/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1befc.dir\build.make CMakeFiles/cmTC_1befc.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1befc.dir/HAVE_IFADDRS_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_1befc.dir\HAVE_IFADDRS_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c:13:10: fatal error: ifaddrs.h: No such file or directory
+ #include <ifaddrs.h>
+          ^~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1befc.dir\build.make:77: CMakeFiles/cmTC_1befc.dir/HAVE_IFADDRS_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_1befc/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5a4fa/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5a4fa.dir\build.make CMakeFiles/cmTC_5a4fa.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a4fa.dir/HAVE_KRB_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_5a4fa.dir\HAVE_KRB_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c:14:10: fatal error: krb.h: No such file or directory
+ #include <krb.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5a4fa.dir\build.make:77: CMakeFiles/cmTC_5a4fa.dir/HAVE_KRB_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_5a4fa/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6b2a1/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b2a1.dir\build.make CMakeFiles/cmTC_6b2a1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b2a1.dir/HAVE_NETINET_TCP_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_6b2a1.dir\HAVE_NETINET_TCP_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c:16:10: fatal error: netinet/tcp.h: No such file or directory
+ #include <netinet/tcp.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6b2a1.dir\build.make:77: CMakeFiles/cmTC_6b2a1.dir/HAVE_NETINET_TCP_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_6b2a1/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;pem.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ee911/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ee911.dir\build.make CMakeFiles/cmTC_ee911.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee911.dir/HAVE_PEM_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_ee911.dir\HAVE_PEM_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c:16:10: fatal error: pem.h: No such file or directory
+ #include <pem.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ee911.dir\build.make:77: CMakeFiles/cmTC_ee911.dir/HAVE_PEM_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_ee911/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;poll.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f8483/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8483.dir\build.make CMakeFiles/cmTC_f8483.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8483.dir/HAVE_POLL_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_f8483.dir\HAVE_POLL_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c:16:10: fatal error: poll.h: No such file or directory
+ #include <poll.h>
+          ^~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f8483.dir\build.make:77: CMakeFiles/cmTC_f8483.dir/HAVE_POLL_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f8483/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;rsa.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7373d/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7373d.dir\build.make CMakeFiles/cmTC_7373d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7373d.dir/HAVE_RSA_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_7373d.dir\HAVE_RSA_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c:16:10: fatal error: rsa.h: No such file or directory
+ #include <rsa.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7373d.dir\build.make:77: CMakeFiles/cmTC_7373d.dir/HAVE_RSA_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7373d/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <rsa.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_47cfd/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_47cfd.dir\build.make CMakeFiles/cmTC_47cfd.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47cfd.dir/HAVE_SSL_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_47cfd.dir\HAVE_SSL_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c:18:10: fatal error: ssl.h: No such file or directory
+ #include <ssl.h>
+          ^~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_47cfd.dir\build.make:77: CMakeFiles/cmTC_47cfd.dir/HAVE_SSL_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_47cfd/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1dccb/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1dccb.dir\build.make CMakeFiles/cmTC_1dccb.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1dccb.dir/HAVE_STROPTS_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_1dccb.dir\HAVE_STROPTS_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c:22:10: fatal error: stropts.h: No such file or directory
+ #include <stropts.h>
+          ^~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1dccb.dir\build.make:77: CMakeFiles/cmTC_1dccb.dir/HAVE_STROPTS_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_1dccb/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e12c0/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e12c0.dir\build.make CMakeFiles/cmTC_e12c0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e12c0.dir/HAVE_SYS_UTSNAME_H.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_e12c0.dir\HAVE_SYS_UTSNAME_H.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c:27:10: fatal error: sys/utsname.h: No such file or directory
+ #include <sys/utsname.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e12c0.dir\build.make:77: CMakeFiles/cmTC_e12c0.dir/HAVE_SYS_UTSNAME_H.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_e12c0/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining if the strncmpi exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_25571/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_25571.dir\build.make CMakeFiles/cmTC_25571.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25571.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_25571.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'strncmpi' undeclared (first use in this function); did you mean 'strcmpi'?
+   return ((int*)(&strncmpi))[argc];
+                   ^~~~~~~~
+                   strcmpi
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_25571.dir\build.make:77: CMakeFiles/cmTC_25571.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_25571/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alarm exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_845aa/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_845aa.dir\build.make CMakeFiles/cmTC_845aa.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_845aa.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_845aa.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'alarm' undeclared (first use in this function)
+   return ((int*)(&alarm))[argc];
+                   ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_845aa.dir\build.make:77: CMakeFiles/cmTC_845aa.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_845aa/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid_r exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a2dbf/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2dbf.dir\build.make CMakeFiles/cmTC_a2dbf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2dbf.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_a2dbf.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'getpwuid_r' undeclared (first use in this function); did you mean 'getpid'?
+   return ((int*)(&getpwuid_r))[argc];
+                   ^~~~~~~~~~
+                   getpid
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a2dbf.dir\build.make:77: CMakeFiles/cmTC_a2dbf.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_a2dbf/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the usleep exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_aca15/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aca15.dir\build.make CMakeFiles/cmTC_aca15.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aca15.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_aca15.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'usleep' undeclared (first use in this function); did you mean '_sleep'?
+   return ((int*)(&usleep))[argc];
+                   ^~~~~~
+                   _sleep
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_aca15.dir\build.make:77: CMakeFiles/cmTC_aca15.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_aca15/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_177bd/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_177bd.dir\build.make CMakeFiles/cmTC_177bd.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_177bd.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_177bd.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'strerror_r' undeclared (first use in this function); did you mean 'strerror_s'?
+   return ((int*)(&strerror_r))[argc];
+                   ^~~~~~~~~~
+                   strerror_s
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_177bd.dir\build.make:77: CMakeFiles/cmTC_177bd.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_177bd/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_514ed/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_514ed.dir\build.make CMakeFiles/cmTC_514ed.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_514ed.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_514ed.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'siginterrupt' undeclared (first use in this function)
+   return ((int*)(&siginterrupt))[argc];
+                   ^~~~~~~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_514ed.dir\build.make:77: CMakeFiles/cmTC_514ed.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_514ed/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fork exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_372c5/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_372c5.dir\build.make CMakeFiles/cmTC_372c5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_372c5.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_372c5.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'fork' undeclared (first use in this function); did you mean 'far'?
+   return ((int*)(&fork))[argc];
+                   ^~~~
+                   far
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_372c5.dir\build.make:77: CMakeFiles/cmTC_372c5.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_372c5/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeifaddrs exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_68f64/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_68f64.dir\build.make CMakeFiles/cmTC_68f64.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68f64.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_68f64.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'freeifaddrs' undeclared (first use in this function); did you mean 'fread_s'?
+   return ((int*)(&freeifaddrs))[argc];
+                   ^~~~~~~~~~~
+                   fread_s
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_68f64.dir\build.make:77: CMakeFiles/cmTC_68f64.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_68f64/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeifaddrs
+  return ((int*)(&freeifaddrs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6ed79/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6ed79.dir\build.make CMakeFiles/cmTC_6ed79.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ed79.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_6ed79.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'pipe' undeclared (first use in this function); did you mean '_pipe'?
+   return ((int*)(&pipe))[argc];
+                   ^~~~
+                   _pipe
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6ed79.dir\build.make:77: CMakeFiles/cmTC_6ed79.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_6ed79/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftruncate exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ab2fd/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ab2fd.dir\build.make CMakeFiles/cmTC_ab2fd.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab2fd.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_ab2fd.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'ftruncate' undeclared (first use in this function); did you mean 'strncat'?
+   return ((int*)(&ftruncate))[argc];
+                   ^~~~~~~~~
+                   strncat
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ab2fd.dir\build.make:77: CMakeFiles/cmTC_ab2fd.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_ab2fd/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the if_nametoindex exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_581c9/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_581c9.dir\build.make CMakeFiles/cmTC_581c9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_581c9.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_581c9.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'if_nametoindex' undeclared (first use in this function)
+   return ((int*)(&if_nametoindex))[argc];
+                   ^~~~~~~~~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_581c9.dir\build.make:77: CMakeFiles/cmTC_581c9.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_581c9/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_nametoindex
+  return ((int*)(&if_nametoindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_68d67/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_68d67.dir\build.make CMakeFiles/cmTC_68d67.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68d67.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_68d67.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'getrlimit' undeclared (first use in this function)
+   return ((int*)(&getrlimit))[argc];
+                   ^~~~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_68d67.dir\build.make:77: CMakeFiles/cmTC_68d67.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_68d67/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_75427/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_75427.dir\build.make CMakeFiles/cmTC_75427.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75427.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_75427.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'setrlimit' undeclared (first use in this function)
+   return ((int*)(&setrlimit))[argc];
+                   ^~~~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_75427.dir\build.make:77: CMakeFiles/cmTC_75427.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_75427/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fcntl exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_29d07/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_29d07.dir\build.make CMakeFiles/cmTC_29d07.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29d07.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_29d07.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'fcntl' undeclared (first use in this function); did you mean 'fcvt'?
+   return ((int*)(&fcntl))[argc];
+                   ^~~~~
+                   fcvt
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_29d07.dir\build.make:77: CMakeFiles/cmTC_29d07.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_29d07/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ioctl exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1d668/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1d668.dir\build.make CMakeFiles/cmTC_1d668.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d668.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_1d668.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'ioctl' undeclared (first use in this function)
+   return ((int*)(&ioctl))[argc];
+                   ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1d668.dir\build.make:77: CMakeFiles/cmTC_1d668.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_1d668/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7801d/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7801d.dir\build.make CMakeFiles/cmTC_7801d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7801d.dir/CheckFunctionExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=mach_absolute_time    -D_WINSOCKAPI_= -o CMakeFiles\cmTC_7801d.dir\CheckFunctionExists.c.obj -c "C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\share\cmake-3.20\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_7801d.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7801d.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7801d.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_7801d.dir/objects.a @CMakeFiles\cmTC_7801d.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DCHECK_FUNCTION_EXISTS=mach_absolute_time -Wl,--whole-archive CMakeFiles\cmTC_7801d.dir/objects.a -Wl,--no-whole-archive -o cmTC_7801d.exe -Wl,--out-implib,libcmTC_7801d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7801d.dir\linklibs.rsp
+CMakeFiles\cmTC_7801d.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `mach_absolute_time'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7801d.dir\build.make:100: cmTC_7801d.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7801d/fast] Error 2
+
+
+
+Determining if the inet_pton exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_737b2/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_737b2.dir\build.make CMakeFiles/cmTC_737b2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_737b2.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_737b2.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'inet_pton' undeclared (first use in this function); did you mean 'inet_ntoa'?
+   return ((int*)(&inet_pton))[argc];
+                   ^~~~~~~~~
+                   inet_ntoa
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_737b2.dir\build.make:77: CMakeFiles/cmTC_737b2.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_737b2/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fsetxattr exist failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ef047/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ef047.dir\build.make CMakeFiles/cmTC_ef047.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef047.dir/CheckSymbolExists.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_ef047.dir\CheckSymbolExists.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+In file included from C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h:17,
+                 from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:4:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: error: 'fsetxattr' undeclared (first use in this function); did you mean 'fstat'?
+   return ((int*)(&fsetxattr))[argc];
+                   ^~~~~~~~~
+                   fstat
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:32:19: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:28:14: warning: parameter 'argc' set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+          ~~~~^~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ef047.dir\build.make:77: CMakeFiles/cmTC_ef047.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_ef047/fast] Error 2
+
+
+File C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsetxattr
+  return ((int*)(&fsetxattr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2576d/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2576d.dir\build.make CMakeFiles/cmTC_2576d.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2576d.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_FCNTL_O_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_2576d.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:64:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main ()
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:68:15: warning: implicit declaration of function 'fcntl' [-Wimplicit-function-declaration]
+       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+               ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:68:15: warning: nested extern declaration of 'fcntl' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:68:24: error: 'F_SETFL' undeclared (first use in this function)
+       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+                        ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:68:24: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:68:41: error: 'O_NONBLOCK' undeclared (first use in this function)
+       if(0 != fcntl(0, F_SETFL, flags | O_NONBLOCK))
+                                         ^~~~~~~~~~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2576d.dir\build.make:77: CMakeFiles/cmTC_2576d.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_2576d/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_0d6fa/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0d6fa.dir\build.make CMakeFiles/cmTC_0d6fa.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d6fa.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_0d6fa.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:350:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main ()
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:354:13: warning: implicit declaration of function 'IoctlSocket'; did you mean 'ioctlsocket'? [-Wimplicit-function-declaration]
+     if(0 != IoctlSocket(0, 0, 0))
+             ^~~~~~~~~~~
+             ioctlsocket
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:354:13: warning: nested extern declaration of 'IoctlSocket' [-Wnested-externs]
+Linking C executable cmTC_0d6fa.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0d6fa.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_0d6fa.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_0d6fa.dir/objects.a @CMakeFiles\cmTC_0d6fa.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_0d6fa.dir/objects.a -Wl,--no-whole-archive -o cmTC_0d6fa.exe -Wl,--out-implib,libcmTC_0d6fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0d6fa.dir\linklibs.rsp
+CMakeFiles\cmTC_0d6fa.dir/objects.a(CurlTests.c.obj):CurlTests.c:(.text+0x1e): undefined reference to `IoctlSocket'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0d6fa.dir\build.make:100: cmTC_0d6fa.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_0d6fa/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7b8e3/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7b8e3.dir\build.make CMakeFiles/cmTC_7b8e3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b8e3.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTL_FIONBIO  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_7b8e3.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:436:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main ()
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:440:17: warning: implicit declaration of function 'ioctl' [-Wimplicit-function-declaration]
+         if(0 != ioctl(0, FIONBIO, &flags))
+                 ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:440:17: warning: nested extern declaration of 'ioctl' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:440:26: error: 'FIONBIO' undeclared (first use in this function)
+         if(0 != ioctl(0, FIONBIO, &flags))
+                          ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:440:26: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7b8e3.dir\build.make:77: CMakeFiles/cmTC_7b8e3.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7b8e3/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_069ef/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_069ef.dir\build.make CMakeFiles/cmTC_069ef.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_069ef.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_IOCTL_SIOCGIFADDR  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_069ef.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:465:10: fatal error: net/if.h: No such file or directory
+ #include <net/if.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_069ef.dir\build.make:77: CMakeFiles/cmTC_069ef.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_069ef/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_54950/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_54950.dir\build.make CMakeFiles/cmTC_54950.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54950.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_54950.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:503:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main ()
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:505:43: error: 'SO_NONBLOCK' undeclared (first use in this function); did you mean 'SMTO_BLOCK'?
+         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+                                           ^~~~~~~~~~~
+                                           SMTO_BLOCK
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:505:43: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_54950.dir\build.make:77: CMakeFiles/cmTC_54950.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_54950/fast] Error 2
+
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4dc51/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4dc51.dir\build.make CMakeFiles/cmTC_4dc51.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4dc51.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_4dc51.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:618: warning: ISO C forbids an empty translation unit [-Wpedantic]
+Linking C executable cmTC_4dc51.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4dc51.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4dc51.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_4dc51.dir/objects.a @CMakeFiles\cmTC_4dc51.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_4dc51.dir/objects.a -Wl,--no-whole-archive -o cmTC_4dc51.exe -Wl,--out-implib,libcmTC_4dc51.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4dc51.dir\linklibs.rsp
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4dc51.dir\build.make:100: cmTC_4dc51.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_4dc51/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7e6a1/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7e6a1.dir\build.make CMakeFiles/cmTC_7e6a1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e6a1.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_GLIBC_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_7e6a1.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:515:6: warning: no previous prototype for 'check' [-Wmissing-prototypes]
+ void check(char c) {}
+      ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'check':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:515:17: warning: unused parameter 'c' [-Wunused-parameter]
+ void check(char c) {}
+            ~~~~~^
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: At top level:
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:518:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main () {
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:521:9: warning: implicit declaration of function 'strerror_r'; did you mean 'strerror_s'? [-Wimplicit-function-declaration]
+   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+         ^~~~~~~~~~
+         strerror_s
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:521:9: warning: nested extern declaration of 'strerror_r' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:521:51: error: subscripted value is neither array nor pointer nor vector
+   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+                                                   ^
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7e6a1.dir\build.make:77: CMakeFiles/cmTC_7e6a1.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7e6a1/fast] Error 2
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a1912/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a1912.dir\build.make CMakeFiles/cmTC_a1912.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1912.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_a1912.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:530:6: warning: no previous prototype for 'check' [-Wmissing-prototypes]
+ void check(float f) {}
+      ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'check':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:530:18: warning: unused parameter 'f' [-Wunused-parameter]
+ void check(float f) {}
+            ~~~~~~^
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: At top level:
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:533:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main () {
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:536:9: warning: implicit declaration of function 'strerror_r'; did you mean 'strerror_s'? [-Wimplicit-function-declaration]
+   check(strerror_r(EACCES, buffer, sizeof(buffer)));
+         ^~~~~~~~~~
+         strerror_s
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:536:9: warning: nested extern declaration of 'strerror_r' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:536:9: warning: conversion from 'int' to 'float' may change value [-Wconversion]
+   check(strerror_r(EACCES, buffer, sizeof(buffer)));
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_a1912.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a1912.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a1912.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_a1912.dir/objects.a @CMakeFiles\cmTC_a1912.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_POSIX_STRERROR_R  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -Wl,--whole-archive CMakeFiles\cmTC_a1912.dir/objects.a -Wl,--no-whole-archive -o cmTC_a1912.exe -Wl,--out-implib,libcmTC_a1912.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a1912.dir\linklibs.rsp
+CMakeFiles\cmTC_a1912.dir/objects.a(CurlTests.c.obj):CurlTests.c:(.text+0x34): undefined reference to `strerror_r'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a1912.dir\build.make:100: cmTC_a1912.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_a1912/fast] Error 2
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_eab34/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eab34.dir\build.make CMakeFiles/cmTC_eab34.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eab34.dir/CurlTests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format -DHAVE_BUILTIN_AVAILABLE  -DHAVE_WINDOWS_H -DHAVE_WINSOCK_H -DHAVE_WS2TCPIP_H -DHAVE_WINSOCK2_H -DHAVE_STDIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UTIME_H -DHAVE_ASSERT_H -DHAVE_ERRNO_H -DHAVE_FCNTL_H -DHAVE_IO_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDBOOL_H -DHAVE_STDIO_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_TIME_H -DHAVE_PROCESS_H -DHAVE_STDDEF_H -DHAVE_MALLOC_H -DHAVE_MEMORY_H -o CMakeFiles\cmTC_eab34.dir\CurlTests.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:567:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ main() {
+ ^~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:568:6: warning: implicit declaration of function '__builtin_available'; did you mean '__builtin_scalbl'? [-Wimplicit-function-declaration]
+   if(__builtin_available(macOS 10.12, *)) {}
+      ^~~~~~~~~~~~~~~~~~~
+      __builtin_scalbl
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:568:6: warning: nested extern declaration of '__builtin_available' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:568:26: error: 'macOS' undeclared (first use in this function)
+   if(__builtin_available(macOS 10.12, *)) {}
+                          ^~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:568:26: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\_deps\curl-src\CMake\CurlTests.c:568:31: error: expected ')' before numeric constant
+   if(__builtin_available(macOS 10.12, *)) {}
+                               ^~~~~~
+                               )
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_eab34.dir\build.make:77: CMakeFiles/cmTC_eab34.dir/CurlTests.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_eab34/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_MSG_NOSIGNAL failed with the following output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_48172/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_48172.dir\build.make CMakeFiles/cmTC_48172.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48172.dir/src.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -DHAVE_MSG_NOSIGNAL @CMakeFiles/cmTC_48172.dir/includes_C.rsp -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_48172.dir\src.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+In file included from C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/winsock2.h:15:2: warning: #warning Please include winsock2.h before windows.h [-Wcpp]
+ #warning Please include winsock2.h before windows.h
+  ^~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:9:16: error: 'MSG_NOSIGNAL' undeclared (first use in this function); did you mean 'MM_MCISIGNAL'?
+     int flag = MSG_NOSIGNAL;
+                ^~~~~~~~~~~~
+                MM_MCISIGNAL
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:9:16: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_48172.dir\build.make:78: CMakeFiles/cmTC_48172.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_48172/fast] Error 2
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+  int main(void) {
+    int flag = MSG_NOSIGNAL;
+    (void)flag;
+    return 0;
+  }
+Performing C SOURCE FILE Test HAVE_POLL_FINE failed with the following compile output:
+Change Dir: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f Makefile cmTC_28e8c/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_28e8c.dir\build.make CMakeFiles/cmTC_28e8c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28e8c.dir/src.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -DHAVE_POLL_FINE @CMakeFiles/cmTC_28e8c.dir/includes_C.rsp -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format     -D_WINSOCKAPI_= -o CMakeFiles\cmTC_28e8c.dir\src.c.obj -c C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:7:12: warning: "HAVE_POLL_H" is not defined, evaluates to 0 [-Wundef]
+     #elif  HAVE_POLL_H
+            ^~~~~~~~~~~
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:13:17: warning: implicit declaration of function 'poll'; did you mean 'wtoll'? [-Wimplicit-function-declaration]
+         if(0 != poll(0, 0, 10)) {
+                 ^~~~
+                 wtoll
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:13:17: warning: nested extern declaration of 'poll' [-Wnested-externs]
+C:\Users\Meresse\Documents\Clion\untitled\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:19:15: warning: variable 'rc' set but not used [-Wunused-but-set-variable]
+           int rc;
+               ^~
+Linking C executable cmTC_28e8c.exe
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_28e8c.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_28e8c.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_28e8c.dir/objects.a @CMakeFiles\cmTC_28e8c.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wno-long-long -Wfloat-equal -Wno-multichar -Wsign-compare -Wundef -Wno-format-nonliteral -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wstrict-aliasing=3 -Wcast-align -Wtype-limits -Wold-style-declaration -Wmissing-parameter-type -Wempty-body -Wclobbered -Wignored-qualifiers -Wconversion -Wno-sign-conversion -Wvla -Wdouble-promotion -Wno-system-headers -Wno-pedantic-ms-format  -Wl,--whole-archive CMakeFiles\cmTC_28e8c.dir/objects.a -Wl,--no-whole-archive -o cmTC_28e8c.exe -Wl,--out-implib,libcmTC_28e8c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_28e8c.dir\linklibs.rsp
+CMakeFiles\cmTC_28e8c.dir/objects.a(src.c.obj):src.c:(.text+0x1e): undefined reference to `poll'
+CMakeFiles\cmTC_28e8c.dir/objects.a(src.c.obj):src.c:(.text+0x4f): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_28e8c.dir\build.make:101: cmTC_28e8c.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_28e8c/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #include <stdlib.h>
+    #include <sys/time.h>
+
+    #ifdef HAVE_SYS_POLL_H
+    #  include <sys/poll.h>
+    #elif  HAVE_POLL_H
+    #  include <poll.h>
+    #endif
+
+    int main(void)
+    {
+        if(0 != poll(0, 0, 10)) {
+          return 1; /* fail */
+        }
+        else {
+          /* detect the 10.12 poll() breakage */
+          struct timeval before, after;
+          int rc;
+          size_t us;
+
+          gettimeofday(&before, NULL);
+          rc = poll(NULL, 0, 500);
+          gettimeofday(&after, NULL);
+
+          us = (after.tv_sec - before.tv_sec) * 1000000 +
+            (after.tv_usec - before.tv_usec);
+
+          if(us < 400000) {
+            return 1;
+          }
+        }
+        return 0;
+    }

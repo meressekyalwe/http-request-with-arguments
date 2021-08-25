@@ -1,0 +1,310 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\Meresse\Documents\Clion\untitled
+-- C++ Requests CMake Options
+-- =======================================================
+--   USE_SYSTEM_CURL: OFF
+--   BUILD_CPR_TESTS: OFF
+--   GENERATE_COVERAGE: OFF
+--   CPR_CURL_NOSIGNAL: OFF
+--   USE_SYSTEM_GTEST: OFF
+--   CMAKE_USE_OPENSSL: OFF
+-- =======================================================
+-- Not using system Curl, using built-in curl project instead.
+CMake Warning at cmake-build-debug/_deps/curl-src/CMakeLists.txt:51 (message):
+  the curl cmake build system is poorly maintained.  Be aware
+
+
+-- curl version=[7.69.1-DEV]
+-- Performing Test OPT_pedantic
+-- Performing Test OPT_pedantic - Success
+-- Performing Test OPT_Wall
+-- Performing Test OPT_Wall - Success
+-- Performing Test OPT_W
+-- Performing Test OPT_W - Success
+-- Performing Test OPT_Wpointer_arith
+-- Performing Test OPT_Wpointer_arith - Success
+-- Performing Test OPT_Wwrite_strings
+-- Performing Test OPT_Wwrite_strings - Success
+-- Performing Test OPT_Wunused
+-- Performing Test OPT_Wunused - Success
+-- Performing Test OPT_Wshadow
+-- Performing Test OPT_Wshadow - Success
+-- Performing Test OPT_Winline
+-- Performing Test OPT_Winline - Success
+-- Performing Test OPT_Wnested_externs
+-- Performing Test OPT_Wnested_externs - Success
+-- Performing Test OPT_Wmissing_declarations
+-- Performing Test OPT_Wmissing_declarations - Success
+-- Performing Test OPT_Wmissing_prototypes
+-- Performing Test OPT_Wmissing_prototypes - Success
+-- Performing Test OPT_Wno_long_long
+-- Performing Test OPT_Wno_long_long - Success
+-- Performing Test OPT_Wfloat_equal
+-- Performing Test OPT_Wfloat_equal - Success
+-- Performing Test OPT_Wno_multichar
+-- Performing Test OPT_Wno_multichar - Success
+-- Performing Test OPT_Wsign_compare
+-- Performing Test OPT_Wsign_compare - Success
+-- Performing Test OPT_Wundef
+-- Performing Test OPT_Wundef - Success
+-- Performing Test OPT_Wno_format_nonliteral
+-- Performing Test OPT_Wno_format_nonliteral - Success
+-- Performing Test OPT_Wendif_labels
+-- Performing Test OPT_Wendif_labels - Success
+-- Performing Test OPT_Wstrict_prototypes
+-- Performing Test OPT_Wstrict_prototypes - Success
+-- Performing Test OPT_Wdeclaration_after_statement
+-- Performing Test OPT_Wdeclaration_after_statement - Success
+-- Performing Test OPT_Wstrict_aliasing_3
+-- Performing Test OPT_Wstrict_aliasing_3 - Success
+-- Performing Test OPT_Wcast_align
+-- Performing Test OPT_Wcast_align - Success
+-- Performing Test OPT_Wtype_limits
+-- Performing Test OPT_Wtype_limits - Success
+-- Performing Test OPT_Wold_style_declaration
+-- Performing Test OPT_Wold_style_declaration - Success
+-- Performing Test OPT_Wmissing_parameter_type
+-- Performing Test OPT_Wmissing_parameter_type - Success
+-- Performing Test OPT_Wempty_body
+-- Performing Test OPT_Wempty_body - Success
+-- Performing Test OPT_Wclobbered
+-- Performing Test OPT_Wclobbered - Success
+-- Performing Test OPT_Wignored_qualifiers
+-- Performing Test OPT_Wignored_qualifiers - Success
+-- Performing Test OPT_Wconversion
+-- Performing Test OPT_Wconversion - Success
+-- Performing Test OPT_Wno_sign_conversion
+-- Performing Test OPT_Wno_sign_conversion - Success
+-- Performing Test OPT_Wvla
+-- Performing Test OPT_Wvla - Success
+-- Performing Test OPT_Wdouble_promotion
+-- Performing Test OPT_Wdouble_promotion - Success
+-- Performing Test OPT_Wno_system_headers
+-- Performing Test OPT_Wno_system_headers - Success
+-- Performing Test OPT_Wno_pedantic_ms_format
+-- Performing Test OPT_Wno_pedantic_ms_format - Success
+CMake Warning at cmake-build-debug/_deps/curl-src/CMake/Macros.cmake:86 (message):
+  Found no *nroff program
+Call Stack (most recent call first):
+  cmake-build-debug/_deps/curl-src/CMakeLists.txt:215 (curl_nroff_check)
+
+
+-- Could NOT find Perl (missing: PERL_EXECUTABLE) 
+-- Perl not found, testing disabled.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for getch in ws2_32;
+-- Looking for getch in ws2_32; - found
+-- Looking for getch in winmm;ws2_32
+-- Looking for getch in winmm;ws2_32 - found
+-- Looking for idn2_lookup_ul in idn2;winmm;ws2_32;advapi32
+-- Looking for idn2_lookup_ul in idn2;winmm;ws2_32;advapi32 - not found
+-- Could NOT find LibSSH2 (missing: LIBSSH2_LIBRARY LIBSSH2_INCLUDE_DIR) 
+-- Performing Test USE_UNIX_SOCKETS
+-- Performing Test USE_UNIX_SOCKETS - Failed
+-- Looking for include file windows.h
+-- Looking for include file windows.h - found
+-- Looking for include files windows.h, winsock.h
+-- Looking for include files windows.h, winsock.h - found
+-- Looking for 3 include files windows.h, ..., ws2tcpip.h
+-- Looking for 3 include files windows.h, ..., ws2tcpip.h - found
+-- Looking for 4 include files windows.h, ..., winsock2.h
+-- Looking for 4 include files windows.h, ..., winsock2.h - found
+-- Looking for 5 include files windows.h, ..., stdio.h
+-- Looking for 5 include files windows.h, ..., stdio.h - found
+-- Looking for 6 include files windows.h, ..., sys/filio.h
+-- Looking for 6 include files windows.h, ..., sys/filio.h - not found
+-- Looking for 6 include files windows.h, ..., sys/ioctl.h
+-- Looking for 6 include files windows.h, ..., sys/ioctl.h - not found
+-- Looking for 6 include files windows.h, ..., sys/resource.h
+-- Looking for 6 include files windows.h, ..., sys/resource.h - not found
+-- Looking for 8 include files windows.h, ..., sys/uio.h
+-- Looking for 8 include files windows.h, ..., sys/uio.h - not found
+-- Looking for 8 include files windows.h, ..., sys/un.h
+-- Looking for 8 include files windows.h, ..., sys/un.h - not found
+-- Looking for 9 include files windows.h, ..., sys/xattr.h
+-- Looking for 9 include files windows.h, ..., sys/xattr.h - not found
+-- Looking for 9 include files windows.h, ..., arpa/tftp.h
+-- Looking for 9 include files windows.h, ..., arpa/tftp.h - not found
+-- Looking for 9 include files windows.h, ..., assert.h
+-- Looking for 9 include files windows.h, ..., assert.h - found
+-- Looking for 10 include files windows.h, ..., crypto.h
+-- Looking for 10 include files windows.h, ..., crypto.h - not found
+-- Looking for 10 include files windows.h, ..., des.h
+-- Looking for 10 include files windows.h, ..., des.h - not found
+-- Looking for 10 include files windows.h, ..., err.h
+-- Looking for 10 include files windows.h, ..., err.h - not found
+-- Looking for 10 include files windows.h, ..., errno.h
+-- Looking for 10 include files windows.h, ..., errno.h - found
+-- Looking for 12 include files windows.h, ..., idn2.h
+-- Looking for 12 include files windows.h, ..., idn2.h - not found
+-- Looking for 12 include files windows.h, ..., ifaddrs.h
+-- Looking for 12 include files windows.h, ..., ifaddrs.h - not found
+-- Looking for 13 include files windows.h, ..., krb.h
+-- Looking for 13 include files windows.h, ..., krb.h - not found
+-- Looking for 13 include files windows.h, ..., libgen.h
+-- Looking for 13 include files windows.h, ..., libgen.h - found
+-- Looking for 14 include files windows.h, ..., locale.h
+-- Looking for 14 include files windows.h, ..., locale.h - found
+-- Looking for 15 include files windows.h, ..., netinet/tcp.h
+-- Looking for 15 include files windows.h, ..., netinet/tcp.h - not found
+-- Looking for 15 include files windows.h, ..., pem.h
+-- Looking for 15 include files windows.h, ..., pem.h - not found
+-- Looking for 15 include files windows.h, ..., poll.h
+-- Looking for 15 include files windows.h, ..., poll.h - not found
+-- Looking for 15 include files windows.h, ..., rsa.h
+-- Looking for 15 include files windows.h, ..., rsa.h - not found
+-- Looking for 17 include files windows.h, ..., ssl.h
+-- Looking for 17 include files windows.h, ..., ssl.h - not found
+-- Looking for 17 include files windows.h, ..., stdbool.h
+-- Looking for 17 include files windows.h, ..., stdbool.h - found
+-- Looking for 21 include files windows.h, ..., stropts.h
+-- Looking for 21 include files windows.h, ..., stropts.h - not found
+-- Looking for 23 include files windows.h, ..., stddef.h
+-- Looking for 23 include files windows.h, ..., stddef.h - found
+-- Looking for 26 include files windows.h, ..., sys/utsname.h
+-- Looking for 26 include files windows.h, ..., sys/utsname.h - not found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of __int64
+-- Check size of __int64 - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Looking for basename
+-- Looking for basename - found
+-- Looking for strncmpi
+-- Looking for strncmpi - not found
+-- Looking for alarm
+-- Looking for alarm - not found
+-- Looking for getpwuid_r
+-- Looking for getpwuid_r - not found
+-- Looking for usleep
+-- Looking for usleep - not found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - found
+-- Looking for strerror_r
+-- Looking for strerror_r - not found
+-- Looking for siginterrupt
+-- Looking for siginterrupt - not found
+-- Looking for fork
+-- Looking for fork - not found
+-- Looking for freeaddrinfo
+-- Looking for freeaddrinfo - found
+-- Looking for freeifaddrs
+-- Looking for freeifaddrs - not found
+-- Looking for pipe
+-- Looking for pipe - not found
+-- Looking for ftruncate
+-- Looking for ftruncate - not found
+-- Looking for getprotobyname
+-- Looking for getprotobyname - found
+-- Looking for getpeername
+-- Looking for getpeername - found
+-- Looking for getsockname
+-- Looking for getsockname - found
+-- Looking for if_nametoindex
+-- Looking for if_nametoindex - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - not found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for setmode
+-- Looking for setmode - found
+-- Looking for setrlimit
+-- Looking for setrlimit - not found
+-- Looking for fcntl
+-- Looking for fcntl - not found
+-- Looking for ioctl
+-- Looking for ioctl - not found
+-- Looking for setsockopt
+-- Looking for setsockopt - found
+-- Looking for mach_absolute_time
+-- Looking for mach_absolute_time - not found
+-- Looking for inet_pton
+-- Looking for inet_pton - not found
+-- Looking for fsetxattr
+-- Looking for fsetxattr - not found
+-- Performing Curl Test HAVE_FCNTL_O_NONBLOCK
+-- Performing Curl Test HAVE_FCNTL_O_NONBLOCK - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET
+-- Performing Curl Test HAVE_IOCTLSOCKET - Success
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO
+-- Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO - Success
+-- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO
+-- Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO - Success
+-- Performing Curl Test HAVE_IOCTL_FIONBIO
+-- Performing Curl Test HAVE_IOCTL_FIONBIO - Failed
+-- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR
+-- Performing Curl Test HAVE_IOCTL_SIOCGIFADDR - Failed
+-- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK
+-- Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK - Failed
+-- Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID
+-- Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID - Failed
+-- Performing Curl Test HAVE_BOOL_T
+-- Performing Curl Test HAVE_BOOL_T - Success
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+-- Performing Curl Test HAVE_VARIADIC_MACROS_C99
+-- Performing Curl Test HAVE_VARIADIC_MACROS_C99 - Success
+-- Performing Curl Test HAVE_VARIADIC_MACROS_GCC
+-- Performing Curl Test HAVE_VARIADIC_MACROS_GCC - Success
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of curl_off_t
+-- Check size of curl_off_t - done
+-- Performing Curl Test HAVE_GLIBC_STRERROR_R
+-- Performing Curl Test HAVE_GLIBC_STRERROR_R - Failed
+-- Performing Curl Test HAVE_POSIX_STRERROR_R
+-- Performing Curl Test HAVE_POSIX_STRERROR_R - Failed
+-- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC
+-- Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC - Success
+-- Performing Curl Test HAVE_BUILTIN_AVAILABLE
+-- Performing Curl Test HAVE_BUILTIN_AVAILABLE - Failed
+-- Performing Test curl_cv_recv
+-- Performing Test curl_cv_recv - Success
+-- Performing Test curl_cv_func_recv_test
+-- Performing Test curl_cv_func_recv_test - Success
+-- Tested: int recv(SOCKET, char *, int, int)
+-- Performing Test curl_cv_send
+-- Performing Test curl_cv_send - Success
+-- Performing Test curl_cv_func_send_test
+-- Performing Test curl_cv_func_send_test - Success
+-- Tested: int send(SOCKET, const char *, int, int)
+-- Performing Test HAVE_MSG_NOSIGNAL
+-- Performing Test HAVE_MSG_NOSIGNAL - Failed
+-- Performing Test HAVE_STRUCT_TIMEVAL
+-- Performing Test HAVE_STRUCT_TIMEVAL - Success
+-- Check size of sig_atomic_t
+-- Check size of sig_atomic_t - done
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+-- Check size of struct sockaddr_storage
+-- Check size of struct sockaddr_storage - done
+-- Performing Test HAVE_POLL_FINE
+-- Performing Test HAVE_POLL_FINE - Failed
+-- Enabled features: IPv6 AsynchDNS NTLM
+-- Enabled protocols: HTTP
+-- Enabled SSL backends: 
+-- Using CURL_INCLUDE_DIRS: .
+-- Using CURL_LIBRARIES: .
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Meresse/Documents/Clion/untitled/cmake-build-debug
